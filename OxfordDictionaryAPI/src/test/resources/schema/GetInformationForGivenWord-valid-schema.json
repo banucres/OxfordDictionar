@@ -1,0 +1,455 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "metadata",
+    "results"
+  ],
+  "properties": {
+    "metadata": {
+      "$id": "#/properties/metadata",
+      "type": "object",
+      "title": "The Metadata Schema",
+      "required": [
+        "provider"
+      ],
+      "properties": {
+        "provider": {
+          "$id": "#/properties/metadata/properties/provider",
+          "type": "string",
+          "title": "The Provider Schema",
+          "default": "",
+          "examples": [
+            "Oxford University Press"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "results": {
+      "$id": "#/properties/results",
+      "type": "array",
+      "title": "The Results Schema",
+      "items": {
+        "$id": "#/properties/results/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "id",
+          "language",
+          "lexicalEntries",
+          "type",
+          "word"
+        ],
+        "properties": {
+          "id": {
+            "$id": "#/properties/results/items/properties/id",
+            "type": "string",
+            "title": "The Id Schema",
+            "default": "",
+            "examples": [
+              "hello"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "language": {
+            "$id": "#/properties/results/items/properties/language",
+            "type": "string",
+            "title": "The Language Schema",
+            "default": "",
+            "examples": [
+              "en"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "lexicalEntries": {
+            "$id": "#/properties/results/items/properties/lexicalEntries",
+            "type": "array",
+            "title": "The Lexicalentries Schema",
+            "items": {
+              "$id": "#/properties/results/items/properties/lexicalEntries/items",
+              "type": "object",
+              "title": "The Items Schema",
+              "required": [
+                "entries",
+                "language",
+                "lexicalCategory",
+                "pronunciations",
+                "text"
+              ],
+              "properties": {
+                "entries": {
+                  "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/entries",
+                  "type": "array",
+                  "title": "The Entries Schema",
+                  "items": {
+                    "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/entries/items",
+                    "type": "object",
+                    "title": "The Items Schema",
+                    "required": [
+                      "etymologies",
+                      "homographNumber",
+                      "senses",
+                      "variantForms"
+                    ],
+                    "properties": {
+                      "etymologies": {
+                        "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/entries/items/properties/etymologies",
+                        "type": "array",
+                        "title": "The Etymologies Schema",
+                        "items": {
+                          "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/entries/items/properties/etymologies/items",
+                          "type": "string",
+                          "title": "The Items Schema",
+                          "default": "",
+                          "examples": [
+                            "early 19th century: variant of earlier hollo; related to holla"
+                          ],
+                          "pattern": "^(.*)$"
+                        }
+                      },
+                      "homographNumber": {
+                        "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/entries/items/properties/homographNumber",
+                        "type": "string",
+                        "title": "The Homographnumber Schema",
+                        "default": "",
+                        "examples": [
+                          "000"
+                        ],
+                        "pattern": "^(.*)$"
+                      },
+                      "senses": {
+                        "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/entries/items/properties/senses",
+                        "type": "array",
+                        "title": "The Senses Schema",
+                        "items": {
+                          "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/entries/items/properties/senses/items",
+                          "type": "object",
+                          "title": "The Items Schema",
+                          "required": [
+                            "definitions",
+                            "examples",
+                            "id",
+                            "short_definitions",
+                            "subsenses"
+                          ],
+                          "properties": {
+                            "definitions": {
+                              "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/entries/items/properties/senses/items/properties/definitions",
+                              "type": "array",
+                              "title": "The Definitions Schema",
+                              "items": {
+                                "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/entries/items/properties/senses/items/properties/definitions/items",
+                                "type": "string",
+                                "title": "The Items Schema",
+                                "default": "",
+                                "examples": [
+                                  "used as a greeting or to begin a telephone conversation"
+                                ],
+                                "pattern": "^(.*)$"
+                              }
+                            },
+                            "examples": {
+                              "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/entries/items/properties/senses/items/properties/examples",
+                              "type": "array",
+                              "title": "The Examples Schema",
+                              "items": {
+                                "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/entries/items/properties/senses/items/properties/examples/items",
+                                "type": "object",
+                                "title": "The Items Schema",
+                                "required": [
+                                  "text"
+                                ],
+                                "properties": {
+                                  "text": {
+                                    "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/entries/items/properties/senses/items/properties/examples/items/properties/text",
+                                    "type": "string",
+                                    "title": "The Text Schema",
+                                    "default": "",
+                                    "examples": [
+                                      "hello there, Katie!"
+                                    ],
+                                    "pattern": "^(.*)$"
+                                  }
+                                }
+                              }
+                            },
+                            "id": {
+                              "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/entries/items/properties/senses/items/properties/id",
+                              "type": "string",
+                              "title": "The Id Schema",
+                              "default": "",
+                              "examples": [
+                                "m_en_gbus0460730.012"
+                              ],
+                              "pattern": "^(.*)$"
+                            },
+                            "short_definitions": {
+                              "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/entries/items/properties/senses/items/properties/short_definitions",
+                              "type": "array",
+                              "title": "The Short_definitions Schema",
+                              "items": {
+                                "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/entries/items/properties/senses/items/properties/short_definitions/items",
+                                "type": "string",
+                                "title": "The Items Schema",
+                                "default": "",
+                                "examples": [
+                                  "used as greeting"
+                                ],
+                                "pattern": "^(.*)$"
+                              }
+                            },
+                            "subsenses": {
+                              "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/entries/items/properties/senses/items/properties/subsenses",
+                              "type": "array",
+                              "title": "The Subsenses Schema",
+                              "items": {
+                                "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/entries/items/properties/senses/items/properties/subsenses/items",
+                                "type": "object",
+                                "title": "The Items Schema",
+                                "required": [
+                                  "definitions",
+                                  "examples",
+                                  "id",
+                                  "regions",
+                                  "short_definitions"
+                                ],
+                                "properties": {
+                                  "definitions": {
+                                    "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/entries/items/properties/senses/items/properties/subsenses/items/properties/definitions",
+                                    "type": "array",
+                                    "title": "The Definitions Schema",
+                                    "items": {
+                                      "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/entries/items/properties/senses/items/properties/subsenses/items/properties/definitions/items",
+                                      "type": "string",
+                                      "title": "The Items Schema",
+                                      "default": "",
+                                      "examples": [
+                                        "used to express surprise"
+                                      ],
+                                      "pattern": "^(.*)$"
+                                    }
+                                  },
+                                  "examples": {
+                                    "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/entries/items/properties/senses/items/properties/subsenses/items/properties/examples",
+                                    "type": "array",
+                                    "title": "The Examples Schema",
+                                    "items": {
+                                      "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/entries/items/properties/senses/items/properties/subsenses/items/properties/examples/items",
+                                      "type": "object",
+                                      "title": "The Items Schema",
+                                      "required": [
+                                        "text"
+                                      ],
+                                      "properties": {
+                                        "text": {
+                                          "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/entries/items/properties/senses/items/properties/subsenses/items/properties/examples/items/properties/text",
+                                          "type": "string",
+                                          "title": "The Text Schema",
+                                          "default": "",
+                                          "examples": [
+                                            "hello, what's all this then?"
+                                          ],
+                                          "pattern": "^(.*)$"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "id": {
+                                    "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/entries/items/properties/senses/items/properties/subsenses/items/properties/id",
+                                    "type": "string",
+                                    "title": "The Id Schema",
+                                    "default": "",
+                                    "examples": [
+                                      "m_en_gbus0460730.017"
+                                    ],
+                                    "pattern": "^(.*)$"
+                                  },
+                                  "regions": {
+                                    "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/entries/items/properties/senses/items/properties/subsenses/items/properties/regions",
+                                    "type": "array",
+                                    "title": "The Regions Schema",
+                                    "items": {
+                                      "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/entries/items/properties/senses/items/properties/subsenses/items/properties/regions/items",
+                                      "type": "string",
+                                      "title": "The Items Schema",
+                                      "default": "",
+                                      "examples": [
+                                        "British"
+                                      ],
+                                      "pattern": "^(.*)$"
+                                    }
+                                  },
+                                  "short_definitions": {
+                                    "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/entries/items/properties/senses/items/properties/subsenses/items/properties/short_definitions",
+                                    "type": "array",
+                                    "title": "The Short_definitions Schema",
+                                    "items": {
+                                      "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/entries/items/properties/senses/items/properties/subsenses/items/properties/short_definitions/items",
+                                      "type": "string",
+                                      "title": "The Items Schema",
+                                      "default": "",
+                                      "examples": [
+                                        "used to express surprise"
+                                      ],
+                                      "pattern": "^(.*)$"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "variantForms": {
+                        "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/entries/items/properties/variantForms",
+                        "type": "array",
+                        "title": "The Variantforms Schema",
+                        "items": {
+                          "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/entries/items/properties/variantForms/items",
+                          "type": "object",
+                          "title": "The Items Schema",
+                          "required": [
+                            "text"
+                          ],
+                          "properties": {
+                            "text": {
+                              "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/entries/items/properties/variantForms/items/properties/text",
+                              "type": "string",
+                              "title": "The Text Schema",
+                              "default": "",
+                              "examples": [
+                                "hallo"
+                              ],
+                              "pattern": "^(.*)$"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "language": {
+                  "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/language",
+                  "type": "string",
+                  "title": "The Language Schema",
+                  "default": "",
+                  "examples": [
+                    "en"
+                  ],
+                  "pattern": "^(.*)$"
+                },
+                "lexicalCategory": {
+                  "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/lexicalCategory",
+                  "type": "string",
+                  "title": "The Lexicalcategory Schema",
+                  "default": "",
+                  "examples": [
+                    "Interjection"
+                  ],
+                  "pattern": "^(.*)$"
+                },
+                "pronunciations": {
+                  "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/pronunciations",
+                  "type": "array",
+                  "title": "The Pronunciations Schema",
+                  "items": {
+                    "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/pronunciations/items",
+                    "type": "object",
+                    "title": "The Items Schema",
+                    "required": [
+                      "audioFile",
+                      "dialects",
+                      "phoneticNotation",
+                      "phoneticSpelling"
+                    ],
+                    "properties": {
+                      "audioFile": {
+                        "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/pronunciations/items/properties/audioFile",
+                        "type": "string",
+                        "title": "The Audiofile Schema",
+                        "default": "",
+                        "examples": [
+                          "http://audio.oxforddictionaries.com/en/mp3/hello_gb_1.mp3"
+                        ],
+                        "pattern": "^(.*)$"
+                      },
+                      "dialects": {
+                        "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/pronunciations/items/properties/dialects",
+                        "type": "array",
+                        "title": "The Dialects Schema",
+                        "items": {
+                          "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/pronunciations/items/properties/dialects/items",
+                          "type": "string",
+                          "title": "The Items Schema",
+                          "default": "",
+                          "examples": [
+                            "British English"
+                          ],
+                          "pattern": "^(.*)$"
+                        }
+                      },
+                      "phoneticNotation": {
+                        "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/pronunciations/items/properties/phoneticNotation",
+                        "type": "string",
+                        "title": "The Phoneticnotation Schema",
+                        "default": "",
+                        "examples": [
+                          "IPA"
+                        ],
+                        "pattern": "^(.*)$"
+                      },
+                      "phoneticSpelling": {
+                        "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/pronunciations/items/properties/phoneticSpelling",
+                        "type": "string",
+                        "title": "The Phoneticspelling Schema",
+                        "default": "",
+                        "examples": [
+                          "həˈləʊ"
+                        ],
+                        "pattern": "^(.*)$"
+                      }
+                    }
+                  }
+                },
+                "text": {
+                  "$id": "#/properties/results/items/properties/lexicalEntries/items/properties/text",
+                  "type": "string",
+                  "title": "The Text Schema",
+                  "default": "",
+                  "examples": [
+                    "hello"
+                  ],
+                  "pattern": "^(.*)$"
+                }
+              }
+            }
+          },
+          "type": {
+            "$id": "#/properties/results/items/properties/type",
+            "type": "string",
+            "title": "The Type Schema",
+            "default": "",
+            "examples": [
+              "headword"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "word": {
+            "$id": "#/properties/results/items/properties/word",
+            "type": "string",
+            "title": "The Word Schema",
+            "default": "",
+            "examples": [
+              "hello"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1489 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 525235983,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GeneralStepdef.before(Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Retrieve dictionary information for a given word 1  hello",
+        "description": "",
+        "id": "retrieve-dictionary-information-for-a-given-word;retrieve-dictionary-information-for-a-given-word-\u003cscenario-details\u003e;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 48886961,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the base path for API",
+            "match": {
+              "location": "GeneralStepdef.theBasePathForTheGetAPI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 142695080,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "path parameters are the following",
+            "match": {
+              "location": "GeneralStepdef.pathParametersAreTheFollowing(PathParameterConfig\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "path",
+                  "pathParameter",
+                  "parameterValue"
+                ]
+              },
+              {
+                "cells": [
+                  "en",
+                  "id",
+                  "hello"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52045757,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "send the Valid header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Valid",
+                  "offset": 9
+                }
+              ],
+              "location": "GeneralStepdef.sendTheValidHeader(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Response Status200\nResponse Content\n{\n    \"metadata\": {\n        \"provider\": \"Oxford University Press\"\n    },\n    \"results\": [\n        {\n            \"id\": \"hello\",\n            \"language\": \"en\",\n            \"lexicalEntries\": [\n                {\n                    \"entries\": [\n                        {\n                            \"etymologies\": [\n                                \"early 19th century: variant of earlier hollo; related to holla\"\n                            ],\n                            \"homographNumber\": \"000\",\n                            \"senses\": [\n                                {\n                                    \"definitions\": [\n                                        \"used as a greeting or to begin a telephone conversation\"\n                                    ],\n                                    \"examples\": [\n                                        {\n                                            \"text\": \"hello there, Katie!\"\n                                        }\n                                    ],\n                                    \"id\": \"m_en_gbus0460730.012\",\n                                    \"short_definitions\": [\n                                        \"used as greeting\"\n                                    ],\n                                    \"subsenses\": [\n                                        {\n                                            \"definitions\": [\n                                                \"used to express surprise\"\n                                            ],\n                                            \"examples\": [\n                                                {\n                                                    \"text\": \"hello, what\u0027s all this then?\"\n                                                }\n                                            ],\n                                            \"id\": \"m_en_gbus0460730.017\",\n                                            \"regions\": [\n                                                \"British\"\n                                            ],\n                                            \"short_definitions\": [\n                                                \"used to express surprise\"\n                                            ]\n                                        },\n                                        {\n                                            \"definitions\": [\n                                                \"used as a cry to attract someone\u0027s attention\"\n                                            ],\n                                            \"examples\": [\n                                                {\n                                                    \"text\": \"‘Hello below!’ he cried\"\n                                                }\n                                            ],\n                                            \"id\": \"m_en_gbus0460730.018\",\n                                            \"short_definitions\": [\n                                                \"used attract attention\"\n                                            ]\n                                        },\n                                        {\n                                            \"definitions\": [\n                                                \"used informally to express sarcasm or anger\"\n                                            ],\n                                            \"examples\": [\n                                                {\n                                                    \"text\": \"Hello! Did you even get what the play was about?\"\n                                                }\n                                            ],\n                                            \"id\": \"m_en_gbus0460730.019\",\n                                            \"short_definitions\": [\n                                                \"used informally to express sarcasm or anger\"\n                                            ]\n                                        }\n                                    ]\n                                }\n                            ],\n                            \"variantForms\": [\n                                {\n                                    \"text\": \"hallo\"\n                                },\n                                {\n                                    \"text\": \"hullo\"\n                                }\n                            ]\n                        }\n                    ],\n                    \"language\": \"en\",\n                    \"lexicalCategory\": \"Interjection\",\n                    \"pronunciations\": [\n                        {\n                            \"audioFile\": \"http://audio.oxforddictionaries.com/en/mp3/hello_gb_1.mp3\",\n                            \"dialects\": [\n                                \"British English\"\n                            ],\n                            \"phoneticNotation\": \"IPA\",\n                            \"phoneticSpelling\": \"həˈləʊ\"\n                        },\n                        {\n                            \"dialects\": [\n                                \"British English\"\n                            ],\n                            \"phoneticNotation\": \"IPA\",\n                            \"phoneticSpelling\": \"hɛˈləʊ\"\n                        }\n                    ],\n                    \"text\": \"hello\"\n                },\n                {\n                    \"entries\": [\n                        {\n                            \"grammaticalFeatures\": [\n                                {\n                                    \"text\": \"Singular\",\n                                    \"type\": \"Number\"\n                                }\n                            ],\n                            \"homographNumber\": \"001\",\n                            \"senses\": [\n                                {\n                                    \"definitions\": [\n                                        \"an utterance of ‘hello’; a greeting\"\n                                    ],\n                                    \"examples\": [\n                                        {\n                                            \"text\": \"she was getting polite nods and hellos from people\"\n                                        }\n                                    ],\n                                    \"id\": \"m_en_gbus0460730.025\",\n                                    \"short_definitions\": [\n                                        \"utterance of ‘hello’\"\n                                    ],\n                                    \"thesaurusLinks\": [\n                                        {\n                                            \"entry_id\": \"acknowledgement\",\n                                            \"sense_id\": \"t_en_gb0000184.002\"\n                                        }\n                                    ]\n                                }\n                            ],\n                            \"variantForms\": [\n                                {\n                                    \"text\": \"hullo\"\n                                },\n                                {\n                                    \"text\": \"hallo\"\n                                }\n                            ]\n                        }\n                    ],\n                    \"language\": \"en\",\n                    \"lexicalCategory\": \"Noun\",\n                    \"pronunciations\": [\n                        {\n                            \"dialects\": [\n                                \"British English\"\n                            ],\n                            \"phoneticNotation\": \"IPA\",\n                            \"phoneticSpelling\": \"hɛˈləʊ\"\n                        },\n                        {\n                            \"audioFile\": \"http://audio.oxforddictionaries.com/en/mp3/hello_gb_1.mp3\",\n                            \"dialects\": [\n                                \"British English\"\n                            ],\n                            \"phoneticNotation\": \"IPA\",\n                            \"phoneticSpelling\": \"həˈləʊ\"\n                        }\n                    ],\n                    \"text\": \"hello\"\n                },\n                {\n                    \"entries\": [\n                        {\n                            \"grammaticalFeatures\": [\n                                {\n                                    \"text\": \"Intransitive\",\n                                    \"type\": \"Subcategorization\"\n                                },\n                                {\n                                    \"text\": \"Present\",\n                                    \"type\": \"Tense\"\n                                }\n                            ],\n                            \"homographNumber\": \"002\",\n                            \"senses\": [\n                                {\n                                    \"definitions\": [\n                                        \"say or shout ‘hello’\"\n                                    ],\n                                    \"examples\": [\n                                        {\n                                            \"text\": \"I pressed the phone button and helloed\"\n                                        }\n                                    ],\n                                    \"id\": \"m_en_gbus0460730.034\",\n                                    \"short_definitions\": [\n                                        \"say or shout ‘hello’\"\n                                    ]\n                                }\n                            ],\n                            \"variantForms\": [\n                                {\n                                    \"text\": \"hullo\"\n                                },\n                                {\n                                    \"text\": \"hallo\"\n                                }\n                            ]\n                        }\n                    ],\n                    \"language\": \"en\",\n                    \"lexicalCategory\": \"Verb\",\n                    \"pronunciations\": [\n                        {\n                            \"audioFile\": \"http://audio.oxforddictionaries.com/en/mp3/hello_gb_1.mp3\",\n                            \"dialects\": [\n                                \"British English\"\n                            ],\n                            \"phoneticNotation\": \"IPA\",\n                            \"phoneticSpelling\": \"həˈləʊ\"\n                        },\n                        {\n                            \"dialects\": [\n                                \"British English\"\n                            ],\n                            \"phoneticNotation\": \"IPA\",\n                            \"phoneticSpelling\": \"hɛˈləʊ\"\n                        }\n                    ],\n                    \"text\": \"hello\"\n                }\n            ],\n            \"type\": \"headword\",\n            \"word\": \"hello\"\n        }\n    ]\n}"
+            ],
+            "result": {
+              "duration": 1584866163,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I send the GET request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET",
+                  "offset": 11
+                }
+              ],
+              "location": "GeneralStepdef.iSendTheGetRequest(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22168129,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should receive 200-valid response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200-valid",
+                  "offset": 17
+                }
+              ],
+              "location": "GeneralStepdef.iShouldReceiveValidResponse(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@positive"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 880884,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GeneralStepdef.before(Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Retrieve dictionary information for a given word 2  Efflorescence",
+        "description": "",
+        "id": "retrieve-dictionary-information-for-a-given-word;retrieve-dictionary-information-for-a-given-word-\u003cscenario-details\u003e;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 934034,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the base path for API",
+            "match": {
+              "location": "GeneralStepdef.theBasePathForTheGetAPI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 960365,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "path parameters are the following",
+            "match": {
+              "location": "GeneralStepdef.pathParametersAreTheFollowing(PathParameterConfig\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "path",
+                  "pathParameter",
+                  "parameterValue"
+                ]
+              },
+              {
+                "cells": [
+                  "en",
+                  "id",
+                  "Efflorescence"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 588312,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "send the Valid header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Valid",
+                  "offset": 9
+                }
+              ],
+              "location": "GeneralStepdef.sendTheValidHeader(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Response Status200\nResponse Content\n{\n    \"metadata\": {\n        \"provider\": \"Oxford University Press\"\n    },\n    \"results\": [\n        {\n            \"id\": \"efflorescence\",\n            \"language\": \"en\",\n            \"lexicalEntries\": [\n                {\n                    \"derivatives\": [\n                        {\n                            \"id\": \"efflorescent\",\n                            \"text\": \"efflorescent\"\n                        }\n                    ],\n                    \"entries\": [\n                        {\n                            \"grammaticalFeatures\": [\n                                {\n                                    \"text\": \"Mass\",\n                                    \"type\": \"Countability\"\n                                },\n                                {\n                                    \"text\": \"Singular\",\n                                    \"type\": \"Number\"\n                                }\n                            ],\n                            \"homographNumber\": \"000\",\n                            \"senses\": [\n                                {\n                                    \"definitions\": [\n                                        \"the formation of a powdery deposit on the surface of brickwork, rock, or other material as a result of loss of moisture on exposure to air\"\n                                    ],\n                                    \"domains\": [\n                                        \"Chemistry\"\n                                    ],\n                                    \"examples\": [\n                                        {\n                                            \"text\": \"cover the brickwork to minimize efflorescence\"\n                                        },\n                                        {\n                                            \"text\": \"efflorescence stains on the walls\"\n                                        },\n                                        {\n                                            \"text\": \"efflorescences found on the sheltered undersides of shale ledges\"\n                                        }\n                                    ],\n                                    \"id\": \"m_en_gbus1184851.007\",\n                                    \"short_definitions\": [\n                                        \"formation of powdery deposit on surface of material\"\n                                    ]\n                                },\n                                {\n                                    \"definitions\": [\n                                        \"rapid growth or development\"\n                                    ],\n                                    \"examples\": [\n                                        {\n                                            \"text\": \"the state is enjoying an incomparable cultural efflorescence\"\n                                        },\n                                        {\n                                            \"text\": \"the efflorescence of capitalism\"\n                                        }\n                                    ],\n                                    \"id\": \"m_en_gbus1184851.011\",\n                                    \"short_definitions\": [\n                                        \"rapid growth or development\"\n                                    ]\n                                }\n                            ]\n                        }\n                    ],\n                    \"language\": \"en\",\n                    \"lexicalCategory\": \"Noun\",\n                    \"pronunciations\": [\n                        {\n                            \"audioFile\": \"http://audio.oxforddictionaries.com/en/mp3/efflorescence_gb_1.mp3\",\n                            \"dialects\": [\n                                \"British English\"\n                            ],\n                            \"phoneticNotation\": \"IPA\",\n                            \"phoneticSpelling\": \"ɛfləˈrɛs(ə)ns\"\n                        }\n                    ],\n                    \"text\": \"efflorescence\"\n                }\n            ],\n            \"type\": \"headword\",\n            \"word\": \"efflorescence\"\n        }\n    ]\n}"
+            ],
+            "result": {
+              "duration": 1085289660,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I send the GET request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET",
+                  "offset": 11
+                }
+              ],
+              "location": "GeneralStepdef.iSendTheGetRequest(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6718657,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should receive 200-valid response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200-valid",
+                  "offset": 17
+                }
+              ],
+              "location": "GeneralStepdef.iShouldReceiveValidResponse(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@positive"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7230169,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GeneralStepdef.before(Scenario)"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Retrieve dictionary information for a given word 3  Petrichor",
+        "description": "",
+        "id": "retrieve-dictionary-information-for-a-given-word;retrieve-dictionary-information-for-a-given-word-\u003cscenario-details\u003e;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1463344,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the base path for API",
+            "match": {
+              "location": "GeneralStepdef.theBasePathForTheGetAPI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1156875,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "path parameters are the following",
+            "match": {
+              "location": "GeneralStepdef.pathParametersAreTheFollowing(PathParameterConfig\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "path",
+                  "pathParameter",
+                  "parameterValue"
+                ]
+              },
+              {
+                "cells": [
+                  "en",
+                  "id",
+                  "Petrichor"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 587337,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "send the Valid header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Valid",
+                  "offset": 9
+                }
+              ],
+              "location": "GeneralStepdef.sendTheValidHeader(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Response Status200\nResponse Content\n{\n    \"metadata\": {\n        \"provider\": \"Oxford University Press\"\n    },\n    \"results\": [\n        {\n            \"id\": \"petrichor\",\n            \"language\": \"en\",\n            \"lexicalEntries\": [\n                {\n                    \"entries\": [\n                        {\n                            \"etymologies\": [\n                                \"1960s: blend of petro- ‘relating to rocks’ (the smell is believed to be caused by a liquid mixture of organic compounds which collects in the ground) and ichor\"\n                            ],\n                            \"grammaticalFeatures\": [\n                                {\n                                    \"text\": \"Mass\",\n                                    \"type\": \"Countability\"\n                                },\n                                {\n                                    \"text\": \"Singular\",\n                                    \"type\": \"Number\"\n                                }\n                            ],\n                            \"homographNumber\": \"000\",\n                            \"senses\": [\n                                {\n                                    \"definitions\": [\n                                        \"a pleasant smell that frequently accompanies the first rain after a long period of warm, dry weather\"\n                                    ],\n                                    \"examples\": [\n                                        {\n                                            \"text\": \"other than the petrichor emanating from the rapidly drying grass, there was not a trace of evidence that it had rained at all\"\n                                        }\n                                    ],\n                                    \"id\": \"m_en_gbus0770790.006\",\n                                    \"short_definitions\": [\n                                        \"pleasant smell frequently accompanying first rain after long period of warm, dry weather\"\n                                    ]\n                                }\n                            ]\n                        }\n                    ],\n                    \"language\": \"en\",\n                    \"lexicalCategory\": \"Noun\",\n                    \"pronunciations\": [\n                        {\n                            \"audioFile\": \"http://audio.oxforddictionaries.com/en/mp3/petrichor_gb_1.mp3\",\n                            \"phoneticNotation\": \"IPA\",\n                            \"phoneticSpelling\": \"ˈpɛtrʌɪkɔː\"\n                        }\n                    ],\n                    \"text\": \"petrichor\"\n                }\n            ],\n            \"type\": \"headword\",\n            \"word\": \"petrichor\"\n        }\n    ]\n}"
+            ],
+            "result": {
+              "duration": 1108863838,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I send the GET request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET",
+                  "offset": 11
+                }
+              ],
+              "location": "GeneralStepdef.iSendTheGetRequest(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3333119,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should receive 200-valid response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200-valid",
+                  "offset": 17
+                }
+              ],
+              "location": "GeneralStepdef.iShouldReceiveValidResponse(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@positive"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2719450,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GeneralStepdef.before(Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Retrieve dictionary information for a given word 4  Supine",
+        "description": "",
+        "id": "retrieve-dictionary-information-for-a-given-word;retrieve-dictionary-information-for-a-given-word-\u003cscenario-details\u003e;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3442345,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the base path for API",
+            "match": {
+              "location": "GeneralStepdef.theBasePathForTheGetAPI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3390902,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "path parameters are the following",
+            "match": {
+              "location": "GeneralStepdef.pathParametersAreTheFollowing(PathParameterConfig\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "path",
+                  "pathParameter",
+                  "parameterValue"
+                ]
+              },
+              {
+                "cells": [
+                  "en",
+                  "id",
+                  "Supine"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 844556,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "send the Valid header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Valid",
+                  "offset": 9
+                }
+              ],
+              "location": "GeneralStepdef.sendTheValidHeader(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Response Status200\nResponse Content\n{\n    \"metadata\": {\n        \"provider\": \"Oxford University Press\"\n    },\n    \"results\": [\n        {\n            \"id\": \"supine\",\n            \"language\": \"en\",\n            \"lexicalEntries\": [\n                {\n                    \"derivatives\": [\n                        {\n                            \"id\": \"supinely\",\n                            \"text\": \"supinely\"\n                        },\n                        {\n                            \"id\": \"supineness\",\n                            \"text\": \"supineness\"\n                        }\n                    ],\n                    \"entries\": [\n                        {\n                            \"etymologies\": [\n                                \"late Middle English: the adjective from Latin supinus ‘bent backwards’ (related to super ‘above’); the noun from late Latin supinum, neuter of supinus\"\n                            ],\n                            \"grammaticalFeatures\": [\n                                {\n                                    \"text\": \"Positive\",\n                                    \"type\": \"Degree\"\n                                }\n                            ],\n                            \"homographNumber\": \"000\",\n                            \"senses\": [\n                                {\n                                    \"crossReferenceMarkers\": [\n                                        \"Contrasted with prone (sense 2)\"\n                                    ],\n                                    \"crossReferences\": [\n                                        {\n                                            \"id\": \"prone\",\n                                            \"text\": \"prone\",\n                                            \"type\": \"related\"\n                                        }\n                                    ],\n                                    \"definitions\": [\n                                        \"(of a person) lying face upwards.\"\n                                    ],\n                                    \"id\": \"m_en_gbus1015720.006\",\n                                    \"short_definitions\": [\n                                        \"lying face upwards\"\n                                    ],\n                                    \"subsenses\": [\n                                        {\n                                            \"definitions\": [\n                                                \"having the front or ventral part upwards.\"\n                                            ],\n                                            \"domains\": [\n                                                \"Anatomy\"\n                                            ],\n                                            \"id\": \"m_en_gbus1015720.008\",\n                                            \"registers\": [\n                                                \"technical\"\n                                            ],\n                                            \"short_definitions\": [\n                                                \"having front or ventral part upwards\"\n                                            ]\n                                        },\n                                        {\n                                            \"definitions\": [\n                                                \"(of the hand) with the palm upwards.\"\n                                            ],\n                                            \"domains\": [\n                                                \"Anatomy\"\n                                            ],\n                                            \"id\": \"m_en_gbus1015720.009\",\n                                            \"short_definitions\": [\n                                                \"(of hand) with palm upwards\"\n                                            ]\n                                        }\n                                    ],\n                                    \"thesaurusLinks\": [\n                                        {\n                                            \"entry_id\": \"supine\",\n                                            \"sense_id\": \"t_en_gb0014437.001\"\n                                        }\n                                    ]\n                                },\n                                {\n                                    \"definitions\": [\n                                        \"failing to act or protest as a result of moral weakness or indolence\"\n                                    ],\n                                    \"examples\": [\n                                        {\n                                            \"text\": \"the government was supine in the face of racial injustice\"\n                                        }\n                                    ],\n                                    \"id\": \"m_en_gbus1015720.011\",\n                                    \"short_definitions\": [\n                                        \"failing to act or protest as result of moral weakness or indolence\"\n                                    ],\n                                    \"thesaurusLinks\": [\n                                        {\n                                            \"entry_id\": \"supine\",\n                                            \"sense_id\": \"t_en_gb0014437.002\"\n                                        }\n                                    ]\n                                }\n                            ]\n                        }\n                    ],\n                    \"language\": \"en\",\n                    \"lexicalCategory\": \"Adjective\",\n                    \"pronunciations\": [\n                        {\n                            \"audioFile\": \"http://audio.oxforddictionaries.com/en/mp3/supine_gb_2.mp3\",\n                            \"dialects\": [\n                                \"British English\"\n                            ],\n                            \"phoneticNotation\": \"IPA\",\n                            \"phoneticSpelling\": \"ˈs(j)uːpʌɪn\"\n                        }\n                    ],\n                    \"text\": \"supine\"\n                },\n                {\n                    \"derivatives\": [\n                        {\n                            \"id\": \"supinely\",\n                            \"text\": \"supinely\"\n                        },\n                        {\n                            \"id\": \"supineness\",\n                            \"text\": \"supineness\"\n                        }\n                    ],\n                    \"entries\": [\n                        {\n                            \"grammaticalFeatures\": [\n                                {\n                                    \"text\": \"Singular\",\n                                    \"type\": \"Number\"\n                                }\n                            ],\n                            \"homographNumber\": \"001\",\n                            \"senses\": [\n                                {\n                                    \"definitions\": [\n                                        \"a Latin verbal noun used only in the accusative and ablative cases, especially to denote purpose (e.g. mirabile dictu ‘wonderful to relate’).\"\n                                    ],\n                                    \"domains\": [\n                                        \"Grammar\"\n                                    ],\n                                    \"id\": \"m_en_gbus1015720.013\",\n                                    \"short_definitions\": [\n                                        \"Latin verbal noun used only in accusative and ablative cases\"\n                                    ]\n                                }\n                            ]\n                        }\n                    ],\n                    \"language\": \"en\",\n                    \"lexicalCategory\": \"Noun\",\n                    \"pronunciations\": [\n                        {\n                            \"audioFile\": \"http://audio.oxforddictionaries.com/en/mp3/supine_gb_2.mp3\",\n                            \"dialects\": [\n                                \"British English\"\n                            ],\n                            \"phoneticNotation\": \"IPA\",\n                            \"phoneticSpelling\": \"ˈs(j)uːpʌɪn\"\n                        }\n                    ],\n                    \"text\": \"supine\"\n                }\n            ],\n            \"type\": \"headword\",\n            \"word\": \"supine\"\n        }\n    ]\n}"
+            ],
+            "result": {
+              "duration": 1108877492,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I send the GET request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET",
+                  "offset": 11
+                }
+              ],
+              "location": "GeneralStepdef.iSendTheGetRequest(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2585112,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should receive 200-valid response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200-valid",
+                  "offset": 17
+                }
+              ],
+              "location": "GeneralStepdef.iShouldReceiveValidResponse(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@positive"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 585142,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GeneralStepdef.before(Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Retrieve dictionary information for a given word 5  Idyllic",
+        "description": "",
+        "id": "retrieve-dictionary-information-for-a-given-word;retrieve-dictionary-information-for-a-given-word-\u003cscenario-details\u003e;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 832365,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the base path for API",
+            "match": {
+              "location": "GeneralStepdef.theBasePathForTheGetAPI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 944274,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "path parameters are the following",
+            "match": {
+              "location": "GeneralStepdef.pathParametersAreTheFollowing(PathParameterConfig\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "path",
+                  "pathParameter",
+                  "parameterValue"
+                ]
+              },
+              {
+                "cells": [
+                  "en",
+                  "id",
+                  "Idyllic"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 237471,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "send the Valid header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Valid",
+                  "offset": 9
+                }
+              ],
+              "location": "GeneralStepdef.sendTheValidHeader(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Response Status200\nResponse Content\n{\n    \"metadata\": {\n        \"provider\": \"Oxford University Press\"\n    },\n    \"results\": [\n        {\n            \"id\": \"idyllic\",\n            \"language\": \"en\",\n            \"lexicalEntries\": [\n                {\n                    \"derivatives\": [\n                        {\n                            \"id\": \"idyllically\",\n                            \"text\": \"idyllically\"\n                        }\n                    ],\n                    \"entries\": [\n                        {\n                            \"grammaticalFeatures\": [\n                                {\n                                    \"text\": \"Positive\",\n                                    \"type\": \"Degree\"\n                                }\n                            ],\n                            \"homographNumber\": \"000\",\n                            \"senses\": [\n                                {\n                                    \"definitions\": [\n                                        \"like an idyll; extremely happy, peaceful, or picturesque\"\n                                    ],\n                                    \"examples\": [\n                                        {\n                                            \"text\": \"an attractive hotel in an idyllic setting\"\n                                        }\n                                    ],\n                                    \"id\": \"m_en_gbus0494250.005\",\n                                    \"short_definitions\": [\n                                        \"like idyll\"\n                                    ],\n                                    \"thesaurusLinks\": [\n                                        {\n                                            \"entry_id\": \"idyllic\",\n                                            \"sense_id\": \"t_en_gb0007305.001\"\n                                        }\n                                    ]\n                                }\n                            ]\n                        }\n                    ],\n                    \"language\": \"en\",\n                    \"lexicalCategory\": \"Adjective\",\n                    \"pronunciations\": [\n                        {\n                            \"audioFile\": \"http://audio.oxforddictionaries.com/en/mp3/idyllic_gb_1.mp3\",\n                            \"dialects\": [\n                                \"British English\"\n                            ],\n                            \"phoneticNotation\": \"IPA\",\n                            \"phoneticSpelling\": \"ɪˈdɪlɪk\"\n                        }\n                    ],\n                    \"text\": \"idyllic\"\n                }\n            ],\n            \"type\": \"headword\",\n            \"word\": \"idyllic\"\n        }\n    ]\n}"
+            ],
+            "result": {
+              "duration": 1080453212,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I send the GET request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET",
+                  "offset": 11
+                }
+              ],
+              "location": "GeneralStepdef.iSendTheGetRequest(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 483474,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should receive 200-valid response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200-valid",
+                  "offset": 17
+                }
+              ],
+              "location": "GeneralStepdef.iShouldReceiveValidResponse(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@positive"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1162971,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GeneralStepdef.before(Scenario)"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Retrieve dictionary information for a given word 6  Sequoia",
+        "description": "",
+        "id": "retrieve-dictionary-information-for-a-given-word;retrieve-dictionary-information-for-a-given-word-\u003cscenario-details\u003e;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 934521,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the base path for API",
+            "match": {
+              "location": "GeneralStepdef.theBasePathForTheGetAPI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 932815,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "path parameters are the following",
+            "match": {
+              "location": "GeneralStepdef.pathParametersAreTheFollowing(PathParameterConfig\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "path",
+                  "pathParameter",
+                  "parameterValue"
+                ]
+              },
+              {
+                "cells": [
+                  "en",
+                  "id",
+                  "Sequoia"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 313295,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "send the Valid header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Valid",
+                  "offset": 9
+                }
+              ],
+              "location": "GeneralStepdef.sendTheValidHeader(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Response Status200\nResponse Content\n{\n    \"metadata\": {\n        \"provider\": \"Oxford University Press\"\n    },\n    \"results\": [\n        {\n            \"id\": \"sequoia\",\n            \"language\": \"en\",\n            \"lexicalEntries\": [\n                {\n                    \"entries\": [\n                        {\n                            \"etymologies\": [\n                                \"from modern Latin Sequoia (genus name), from Sequoya, the name of the Cherokee Indian who invented the Cherokee syllabary\"\n                            ],\n                            \"grammaticalFeatures\": [\n                                {\n                                    \"text\": \"Singular\",\n                                    \"type\": \"Number\"\n                                }\n                            ],\n                            \"homographNumber\": \"000\",\n                            \"senses\": [\n                                {\n                                    \"definitions\": [\n                                        \"a redwood tree, especially the California redwood.\"\n                                    ],\n                                    \"domains\": [\n                                        \"Plant\"\n                                    ],\n                                    \"id\": \"m_en_gbus0926070.005\",\n                                    \"short_definitions\": [\n                                        \"redwood tree\"\n                                    ]\n                                }\n                            ]\n                        }\n                    ],\n                    \"language\": \"en\",\n                    \"lexicalCategory\": \"Noun\",\n                    \"pronunciations\": [\n                        {\n                            \"audioFile\": \"http://audio.oxforddictionaries.com/en/mp3/sequoia_1_gb_2.mp3\",\n                            \"dialects\": [\n                                \"British English\"\n                            ],\n                            \"phoneticNotation\": \"IPA\",\n                            \"phoneticSpelling\": \"sɪˈkwɔɪə\"\n                        }\n                    ],\n                    \"text\": \"sequoia\"\n                }\n            ],\n            \"type\": \"headword\",\n            \"word\": \"sequoia\"\n        }\n    ]\n}"
+            ],
+            "result": {
+              "duration": 1081566203,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I send the GET request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET",
+                  "offset": 11
+                }
+              ],
+              "location": "GeneralStepdef.iSendTheGetRequest(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 750202,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should receive 200-valid response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200-valid",
+                  "offset": 17
+                }
+              ],
+              "location": "GeneralStepdef.iShouldReceiveValidResponse(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@positive"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 657555,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GeneralStepdef.before(Scenario)"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "Retrieve dictionary information for a given word 7 1234",
+        "description": "",
+        "id": "retrieve-dictionary-information-for-a-given-word;retrieve-dictionary-information-for-a-given-word-\u003cscenario-details\u003e;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 848456,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the base path for API",
+            "match": {
+              "location": "GeneralStepdef.theBasePathForTheGetAPI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 865524,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "path parameters are the following",
+            "match": {
+              "location": "GeneralStepdef.pathParametersAreTheFollowing(PathParameterConfig\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "path",
+                  "pathParameter",
+                  "parameterValue"
+                ]
+              },
+              {
+                "cells": [
+                  "en",
+                  "id",
+                  "1234"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 214552,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "send the Valid header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Valid",
+                  "offset": 9
+                }
+              ],
+              "location": "GeneralStepdef.sendTheValidHeader(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Response Status404\nResponse Content\n\u003chtml\u003e\n  \u003chead\u003e\n    \u003ctitle\u003e404 Not Found\u003c/title\u003e\n  \u003c/head\u003e\n  \u003cbody\u003e\n    \u003ch1\u003eNot Found\u003c/h1\u003e\n    \u003cp\u003eNo entry available for \u00271234\u0027 in \u0027en\u0027\u003c/p\u003e\n  \u003c/body\u003e\n\u003c/html\u003e"
+            ],
+            "result": {
+              "duration": 1271764137,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I send the GET request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET",
+                  "offset": 11
+                }
+              ],
+              "location": "GeneralStepdef.iSendTheGetRequest(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1034239,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I should receive 404 - Invalid response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404 - Invalid",
+                  "offset": 17
+                }
+              ],
+              "location": "GeneralStepdef.iShouldReceiveValidResponse(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 508099,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GeneralStepdef.before(Scenario)"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Retrieve dictionary information for a given word 8 )Q$£",
+        "description": "",
+        "id": "retrieve-dictionary-information-for-a-given-word;retrieve-dictionary-information-for-a-given-word-\u003cscenario-details\u003e;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 660723,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the base path for API",
+            "match": {
+              "location": "GeneralStepdef.theBasePathForTheGetAPI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1190034,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "path parameters are the following",
+            "match": {
+              "location": "GeneralStepdef.pathParametersAreTheFollowing(PathParameterConfig\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "path",
+                  "pathParameter",
+                  "parameterValue"
+                ]
+              },
+              {
+                "cells": [
+                  "en",
+                  "id",
+                  ")Q$£"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139459,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "send the Valid header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Valid",
+                  "offset": 9
+                }
+              ],
+              "location": "GeneralStepdef.sendTheValidHeader(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Response Status404\nResponse Content\n\u003chtml\u003e\n  \u003chead\u003e\n    \u003ctitle\u003e404 Not Found\u003c/title\u003e\n  \u003c/head\u003e\n  \u003cbody\u003e\n    \u003ch1\u003eNot Found\u003c/h1\u003e\n    \u003cp\u003eNo entry available for \u0027%29q%24%C2%A3\u0027 in \u0027en\u0027\u003c/p\u003e\n  \u003c/body\u003e\n\u003c/html\u003e"
+            ],
+            "result": {
+              "duration": 1095941938,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I send the GET request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET",
+                  "offset": 11
+                }
+              ],
+              "location": "GeneralStepdef.iSendTheGetRequest(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7014642,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I should receive 404 - Invalid response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404 - Invalid",
+                  "offset": 17
+                }
+              ],
+              "location": "GeneralStepdef.iShouldReceiveValidResponse(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2448090,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GeneralStepdef.before(Scenario)"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Retrieve dictionary information for a given word 9 12sd£$",
+        "description": "",
+        "id": "retrieve-dictionary-information-for-a-given-word;retrieve-dictionary-information-for-a-given-word-\u003cscenario-details\u003e;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1169797,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the base path for API",
+            "match": {
+              "location": "GeneralStepdef.theBasePathForTheGetAPI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1120548,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "path parameters are the following",
+            "match": {
+              "location": "GeneralStepdef.pathParametersAreTheFollowing(PathParameterConfig\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "path",
+                  "pathParameter",
+                  "parameterValue"
+                ]
+              },
+              {
+                "cells": [
+                  "en",
+                  "id",
+                  "12sd£$"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 228450,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "send the Valid header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Valid",
+                  "offset": 9
+                }
+              ],
+              "location": "GeneralStepdef.sendTheValidHeader(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Response Status404\nResponse Content\n\u003chtml\u003e\n  \u003chead\u003e\n    \u003ctitle\u003e404 Not Found\u003c/title\u003e\n  \u003c/head\u003e\n  \u003cbody\u003e\n    \u003ch1\u003eNot Found\u003c/h1\u003e\n    \u003cp\u003eNo entry available for \u002712sd%C2%A3%24\u0027 in \u0027en\u0027\u003c/p\u003e\n  \u003c/body\u003e\n\u003c/html\u003e"
+            ],
+            "result": {
+              "duration": 1089126246,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I send the GET request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET",
+                  "offset": 11
+                }
+              ],
+              "location": "GeneralStepdef.iSendTheGetRequest(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3383588,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I should receive 404 - Invalid response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404 - Invalid",
+                  "offset": 17
+                }
+              ],
+              "location": "GeneralStepdef.iShouldReceiveValidResponse(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2462719,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GeneralStepdef.before(Scenario)"
+            }
+          }
+        ],
+        "line": 55,
+        "name": "Retrieve dictionary information for a given word 10 NoApikey",
+        "description": "",
+        "id": "retrieve-dictionary-information-for-a-given-word;retrieve-dictionary-information-for-a-given-word-\u003cscenario-details\u003e;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1876114,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "the base path for API",
+            "match": {
+              "location": "GeneralStepdef.theBasePathForTheGetAPI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2012890,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "path parameters are the following",
+            "match": {
+              "location": "GeneralStepdef.pathParametersAreTheFollowing(PathParameterConfig\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "path",
+                  "pathParameter",
+                  "parameterValue"
+                ]
+              },
+              {
+                "cells": [
+                  "en",
+                  "id",
+                  "hello"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 424716,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "send the NoApikey header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NoApikey",
+                  "offset": 9
+                }
+              ],
+              "location": "GeneralStepdef.sendTheValidHeader(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Response Status403\nResponse Content\nAuthentication parameters missing"
+            ],
+            "result": {
+              "duration": 1068930291,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I send the GET request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET",
+                  "offset": 11
+                }
+              ],
+              "location": "GeneralStepdef.iSendTheGetRequest(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1625233,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I should receive 403 - Invalid response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "403 - Invalid",
+                  "offset": 17
+                }
+              ],
+              "location": "GeneralStepdef.iShouldReceiveValidResponse(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2515138,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GeneralStepdef.before(Scenario)"
+            }
+          }
+        ],
+        "line": 56,
+        "name": "Retrieve dictionary information for a given word 11 invalid.apikey",
+        "description": "",
+        "id": "retrieve-dictionary-information-for-a-given-word;retrieve-dictionary-information-for-a-given-word-\u003cscenario-details\u003e;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2246704,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "the base path for API",
+            "match": {
+              "location": "GeneralStepdef.theBasePathForTheGetAPI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2227930,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "path parameters are the following",
+            "match": {
+              "location": "GeneralStepdef.pathParametersAreTheFollowing(PathParameterConfig\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "path",
+                  "pathParameter",
+                  "parameterValue"
+                ]
+              },
+              {
+                "cells": [
+                  "en",
+                  "id",
+                  "hello"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 573196,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "send the invalidapikey header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "invalidapikey",
+                  "offset": 9
+                }
+              ],
+              "location": "GeneralStepdef.sendTheValidHeader(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Response Status403\nResponse Content\nAuthentication failed"
+            ],
+            "result": {
+              "duration": 1127964113,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I send the GET request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET",
+                  "offset": 11
+                }
+              ],
+              "location": "GeneralStepdef.iSendTheGetRequest(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1099824,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I should receive 403 - Invalid response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "403 - Invalid",
+                  "offset": 17
+                }
+              ],
+              "location": "GeneralStepdef.iShouldReceiveValidResponse(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2109439,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GeneralStepdef.before(Scenario)"
+            }
+          }
+        ],
+        "line": 57,
+        "name": "Retrieve dictionary information for a given word 12 invalid.appid",
+        "description": "",
+        "id": "retrieve-dictionary-information-for-a-given-word;retrieve-dictionary-information-for-a-given-word-\u003cscenario-details\u003e;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2809660,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "the base path for API",
+            "match": {
+              "location": "GeneralStepdef.theBasePathForTheGetAPI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2645820,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "path parameters are the following",
+            "match": {
+              "location": "GeneralStepdef.pathParametersAreTheFollowing(PathParameterConfig\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "path",
+                  "pathParameter",
+                  "parameterValue"
+                ]
+              },
+              {
+                "cells": [
+                  "en",
+                  "id",
+                  "hello"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 527848,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "send the invalidappid header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "invalidappid",
+                  "offset": 9
+                }
+              ],
+              "location": "GeneralStepdef.sendTheValidHeader(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Response Status403\nResponse Content\nAuthentication failed"
+            ],
+            "result": {
+              "duration": 1092520560,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I send the GET request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET",
+                  "offset": 11
+                }
+              ],
+              "location": "GeneralStepdef.iSendTheGetRequest(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1090072,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I should receive 403 - Invalid response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "403 - Invalid",
+                  "offset": 17
+                }
+              ],
+              "location": "GeneralStepdef.iShouldReceiveValidResponse(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Negative1"
+          }
+        ]
+      }
+    ],
+    "name": "Retrieve dictionary information for a given word",
+    "description": "  As a Product of Owner Dictionary\n  I want to get the meanings of English word\n  So that the user Retrieve dictionary information for a given word",
+    "id": "retrieve-dictionary-information-for-a-given-word",
+    "keyword": "Feature",
+    "uri": "src\\test\\java\\features\\GetInformationForGivenWord.feature",
+    "tags": []
+  }
+]
