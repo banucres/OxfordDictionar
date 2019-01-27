@@ -4,6 +4,9 @@
 prerequisite  
   Run this project in intellij Community IDE
   https://www.jetbrains.com/idea/download/#section=windows
+
+Attached the video file for the API project.(need VLC player to run this video)
+OxfordDictionary.webm  
   
   Dependency:
   Note : All the dependencies are in grouped in Pom file(maven)
