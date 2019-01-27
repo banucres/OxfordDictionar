@@ -1,4 +1,4 @@
-# OxfordDictionar
+# OxfordDictionary
 
 
 prerequisite  
@@ -42,4 +42,6 @@ User responds with a 404 for invalid words that do not exist
 API Details: 
 
 https://developer.oxforddictionaries.com/documentation#!/Dictionary32entries/get_entries_source_lang_word_id
+
+
   
