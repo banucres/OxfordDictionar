@@ -23,6 +23,12 @@ Test Execution:
    6. Guava -Google guava common libraries
    7. Slf4j - Simple logging for java.
    
+   
+   
+   Note:
+   Added lombok jar in pom file (maven project).If that does not work then need to download from the below link, based on you intellij Version.
+   https://plugins.jetbrains.com/plugin/6317-lombok-plugin
+   
 
   
 
