@@ -1,7 +1,11 @@
 # OxfordDictionar
 
 
-Dependency:
+prerequisite  
+  Run this project in intellij Community IDE
+  https://www.jetbrains.com/idea/download/#section=windows
+  
+  Dependency:
   Note : All the dependencies are in grouped in Pom file(maven)
    1. Cucumber    -BDD Test Framework
    2. RESTAssured -Restful API test Framework
@@ -15,11 +19,7 @@ Test Execution:
   -ea
   -Dcucumber.options="--tags'@Positive'"
   
-prerequisite  
-  Run this project in intellij Community IDE
-  https://www.jetbrains.com/idea/download/#section=windows
- 
- 
+
 Questions: 
 Instructions:
 Please answer following questions and reply to the email that you have received with answers when you are done
