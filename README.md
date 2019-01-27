@@ -1,12 +1,17 @@
 # OxfordDictionary
 
 
-prerequisite  
+Prerequisite  
   Run this project in intellij Community IDE
   https://www.jetbrains.com/idea/download/#section=windows
 
 Attached the video file for the API project.(need VLC player to run this video)
 OxfordDictionary.webm  
+
+Test Execution:
+  -ea
+  -Dcucumber.options="--tags'@Positive'"
+    Test Execution.png (image)
   
   Dependency:
   Note : All the dependencies are in grouped in Pom file(maven)
@@ -18,9 +23,7 @@ OxfordDictionary.webm
    6. Guava -Google guava common libraries
    7. Slf4j - Simple logging for java.
    
-Test Execution:
-  -ea
-  -Dcucumber.options="--tags'@Positive'"
+
   
 
 Questions: 
