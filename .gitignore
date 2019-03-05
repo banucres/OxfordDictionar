@@ -1,0 +1,5 @@
+.m2/
+OxfordDictionaryAPI/target/*.jar
+OxfordDictionaryAPI/target/maven-archiver/
+OxfordDictionaryAPI/target/maven-status/
+OxfordDictionaryAPI/target/surefire-reports/
